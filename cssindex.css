@@ -7,7 +7,7 @@
 /*  orange FFC98D*/
 /*//xs*/
 /*http://paletton.com/#uid=63r0u0kehUd2k+N8QYniROamVFc*/
-@media only screen and (min-width:480px)
+@media only screen and(min-width:480px)
 {
   #projects_header button
   {
@@ -17,14 +17,14 @@
   
   .project_preview
   {
-   max-width: 480px; 
+   /*width: 50%; */
   }
 }
 
 
 /*sm*/
 
-@media only screen and (min-width:768px)
+@media only screen and(min-width:768px)
 {
   #projects_header button
   {
@@ -33,9 +33,18 @@
   }
   .project_preview
   {
-   max-width: inherit; 
+   width: inherit; 
   }
 
+}
+
+
+/*md*/
+@media only screen and(min-width:992px)
+{
+  
+  
+  
 }
 
 @-ms-viewport
@@ -55,10 +64,21 @@
 	position:relative;
 	display:inline-block;
 	z-index:100;
-	/*background-color: #87CEEB;*/
   background-color: black;
-  border-bottom-color:black;
-	/*color:white;*/
+}
+
+
+.top
+{
+	position:fixed;
+	top:0;
+	width:100%;
+	/*background-color:white;*/
+  /*background-color: #87CEEB !important;*/
+  background-color: black !important;
+	border-bottom:black;
+	box-shadow: 0 1.5px 3px 1px rgba(0,0,0,0.4);
+	padding:0;
 }
 
 .menu > li
@@ -114,7 +134,7 @@
   /*border-radius: 2px;*/
   /*border-color: black 1px;*/
   font-size: 30px !important;
-  /*width: 200px;*/
+  width: 150px;
   font-weight: 900 !important;
   height:100px;
   margin-left: auto;
@@ -145,11 +165,10 @@
  background-color: #929FEE; 
 }
 
-.project_wrapper
+.project_wrapper .row
 {
   padding-top: 50px;
   /*color:white; */
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -179,7 +198,7 @@
  
 }
 
-.headers
+.headers .row
 {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -340,17 +359,7 @@
   
 }
 
-.top
-{
-	position:fixed;
-	top:0;
-	width:100%;
-	/*background-color:white;*/
-  /*background-color: #87CEEB !important;*/
-  background-color: black !important;
-	border-bottom:2px solid #87CEEB;
-	padding:0;
-}
+
 
 .restofpage
 {

@@ -1,2 +1,18 @@
 -Meta Viewpoint tag creates issues when it comes to mobile.
     -Containers only take up half the pages width.
+    -Is this a bootstrap problem?
+    -Adding this for trulyruby made it work much better.
+    -It might be the resolution and width of what I am using to test it.
+    -Read more about the tag
+    -See if I can add colors without adding a container wrapper
+    -Perhaps just use rows?
+    
+    -taking the wrappers out doesn't make a difference
+    
+    -Bootstrap recommends them here: http://getbootstrap.com/getting-started/
+    
+-Updating resume issue: It would be easier to simply provide a link to the resume itself.
+    One can download the resume from there in ANY format. Any updates are immediate without
+    needing to change the link. However, the download button for the PDF is much more
+    obvious. If people who don't use Google Drive use it, they may not be able to tell that
+    they can download the document.
