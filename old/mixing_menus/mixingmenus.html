@@ -22,6 +22,8 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<link href="./css/bootstrap.min.css" rel="stylesheet"/>
 	
+	<!--<link rel="stylesheet" href="./css/responsive-nav.css">-->
+	<!--<script src="./js/responsive-nav.js"></script>-->
 	
 	<link href="./css/cssindex.css" rel="stylesheet" type="text/css">
 	<link href="./images/favicon.ico" rel="shortcut icon">
@@ -30,77 +32,55 @@
 <body>
 	
 
-	<div class="container visible-md visible-lg visible-sm">
-		<div class="row">
-			<nav class="navbar navbar-default navbar-fixed-top top ">
-				<ul class="menu">
-					<li class="name">
-						<a class="" href="#about_me">
-							<h1>Alicina Memar</h1>
-						</a>
-					</li>
+
+	<!--attempt at mixing bootstrap and that other plugin-->
+<!------------http://responsive-nav.com/--------------------------------------------------------	-->
+
+	<!--there's an inbetween where the icon doesn't show up-->
 	
-				</ul>
-				<ul class="menu menu_buttons">
-					<li>
-						<a href="https://drive.google.com/file/d/0B8VIAVgDjYzHbjR0bGRfR3FBYkU/view" >
-						<button type="button" class="btn" >Resume</button>
-						</a>
-					</li>
-					<li>
-						<a href="#projects_header" >
-						<button type="button" class="btn" >Projects</button>
-						</a>
-					</li>
-					<li>
-						<a href="#contact" >
-						<button type="button" class="btn">Contact</button>
-						</a>
-					</li>
-				</ul>
-			</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" id="toggle">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
-	</div>
+	</nav>
+	<nav class="nav-collapse navbar-fixed-top">
+		<ul class="menu">
+			<li class="name">
+				<a class="" href="#about_me">
+					<h1 class="" >Alicina Memar</h1>
+					<h1 class="visible-xs visible-sm" name="Alicina Memar" >A M</h1>
+				</a>
+			</li>
+		</ul>
+		<ul class="menu menu_buttons">
+			<li>
+				<a href="https://drive.google.com/file/d/0B8VIAVgDjYzHbjR0bGRfR3FBYkU/view" >
+				<button type="button" class="btn" >Resume</button>
+				</a>
+			</li>
+			<li>
+				<a href="#projects_header" >
+				<button type="button" class="btn" >Projects</button>
+				</a>
+			</li>
+			<li>
+				<a href="#contact" >
+				<button type="button" class="btn">Contact</button>
+				</a>
+			</li>
+		</ul>
+	</nav>
 	
 	
-	<div class="container visible-xs">
-	<div class="row">
-		<nav class="navbar navbar-inverse navbar-fixed-top top" role="navigation">
-				<div class="navbar-header" >
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bootstrap_collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<span class="navbar-brand">
-						<a href="#about_me" class="name_mobile">
-							<span>ALICINA MEMAR</span>
-						</a>
-					</span>
-				</div>
-				<div class="collapse navbar-collapse nav" id="bootstrap_collapse">
-				<ul class="menu_drop">
-					<li>
-						<a href="https://drive.google.com/file/d/0B8VIAVgDjYzHbjR0bGRfR3FBYkU/view" >
-						<button type="button" class="btn" >Resume</button>
-						</a>
-					</li>
-					<li>
-						<a href="#projects_header" >
-						<button type="button" class="btn" >Projects</button>
-						</a>
-					</li>
-					<li>
-						<a href="#contact" >
-						<button type="button" class="btn">Contact</button>
-						</a>
-					</li>
-				</ul>
-				</div>
-		</nav>
-	</div>
-	</div>
+	
+	
+	
+
 
 	<div id="about_me" class="headers">
 	<div class="container" >
@@ -239,5 +219,13 @@
 	</div>
 	
 	
+	
+	
+	<script>
+		var nav = responsiveNav(".nav-collapse",
+		{
+			customToggle: "#toggle"
+		});
+	</script>
 </body>
 </html>

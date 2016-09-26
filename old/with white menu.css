@@ -1,0 +1,498 @@
+/*base color #87CEEB r53, g81, b92  rgb(135,206,235)*/
+/*other base colors:*/
+/*  green 85F0B0*/
+/*  purpleish blue 929FEE*/
+/*  other aqua 87CDEB*/
+/*darker acqua 3C97BF*/
+/*  orange FFC98D*/
+/*//xs*/
+/*http://paletton.com/#uid=63r0u0kehUd2k+N8QYniROamVFc*/
+@media only screen and(min-width:480px)
+{
+  #projects_header button
+  {
+   margin-top: 10px;
+   
+  }
+  
+  .project_preview
+  {
+   /*width: 50%; */
+  }
+}
+
+
+/*sm*/
+
+@media only screen and(min-width:768px)
+{
+  #projects_header button
+  {
+   margin-top: 0;
+   
+  }
+  .project_preview
+  {
+   width: inherit; 
+  }
+
+}
+
+
+/*md*/
+@media only screen and(min-width:992px)
+{
+  
+  
+  
+}
+
+@-ms-viewport
+{
+  width: device-width;
+}
+
+.gap_right 
+{
+  margin-right: 30px; 
+}
+
+
+.menu
+{
+	list-style-type:none;
+	position:relative;
+	display:inline-block;
+	z-index:100;
+}
+
+
+
+
+
+.menu > li
+{
+	display:inline-block;
+	text-align: center;
+
+}
+
+.menu_buttons
+{
+  float: right;
+  /*line-height: 20%;*/
+
+}
+
+
+.white_button
+{
+  background-color: white !important;
+  font-weight:900 !important;
+  font-size: 18px !important;
+  
+
+}
+
+
+.white_button:hover
+{ 
+    color: black !important;
+
+}
+
+.project_buttons
+{
+  background-color: black;
+  color:white;
+  /*border-radius: 2px;*/
+  /*border-color: black 1px;*/
+  font-size: 30px !important;
+  width: 150px;
+  font-weight: 900 !important;
+  height:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project_buttons:hover
+{
+ background-color:white;
+ color:black;
+  
+}
+
+.project_buttons:active
+{
+	color:white;
+}
+
+#projects_header button
+{
+ color: #929FEE;
+ 
+ 
+}
+
+#projects_header
+{
+ background-color: #929FEE; 
+}
+
+.project_wrapper .row
+{
+  padding-top: 50px;
+  /*color:white; */
+  padding-bottom: 100px;
+}
+
+.project_wrapper button
+{
+  /*font-weight:900 !important;*/
+  /*font-size: 18px !important;*/
+
+}
+
+#about_me button
+{
+ color: #85F0B0;
+
+}
+
+#about_me
+{
+    background-color: #85F0B0;
+
+}
+
+#about_me p
+{
+  
+  font-weight:500 !important;
+ 
+}
+
+.headers .row
+{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+  text-align: left;
+
+}
+
+.headers p
+{
+ font-size: 20px; 
+}
+
+#contact
+{
+  background-color: #FFC98D;
+}
+
+/*white menu:*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*.top*/
+/*{*/
+/*	position:fixed;*/
+/*	top:0;*/
+/*	width:100%;*/
+/*	color: black;*/
+/*	/*background-color:white;*/*/
+/*  /*background-color: #87CEEB !important;*/*/
+/*  background-color: white !important;*/
+/*	border-bottom:white;*/
+/*	box-shadow: 0 1.5px 3px 1px rgba(0,0,0,0.4);*/
+/*	padding:0;*/
+/*}*/
+/**/
+/**/
+/*.name a*/
+/*{*/
+/*  text-shadow: 0px 2px 1px #555;*/
+/*  vertical-align: middle;*/
+/*  line-height: 50%;*/
+/*	/*color: black;*/*/
+/*	color: #3C97BF;*/
+/**/
+/*}*/
+/**/
+/*.name*/
+/*{*/
+/*  /*margin-left: -30px;*/*/
+/*  text-transform: uppercase;*/
+/*}*/
+/**/
+/*.name a:hover*/
+/*{*/
+/*  text-decoration: none;*/
+/*  /*color:white;*/*/
+/*}*/
+
+
+
+
+/**/
+/*.menu_buttons button*/
+/*{*/
+/*  margin-top:20px;*/
+/*  margin-right: 10px;*/
+/*  /*color:#87CEEB;*/*/
+/*  /*color:black;*/*/
+/*	/*color: #555;*/*/
+/*	color:white;*/
+/*  width: 100px;*/
+/*  font-weight:900 !important;*/
+/*  font-size: 18px !important;*/
+/*	background-color: black;*/
+/**/
+/*}*/
+/**/
+/**/
+/*.menu_buttons button:hover*/
+/*{*/
+/*  color:black;*/
+/*  background-color: white !important;*/
+/*}*/
+/**/
+
+
+
+
+
+
+
+
+
+
+
+/*black menu*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*I think it looks better because nothing else uses*/
+/*a black background on this, it is distinct
+without being overburdening*/
+.top
+{
+	position:fixed;
+	top:0;
+	width:100%;
+  background-color: black !important;
+	border-bottom:black;
+	box-shadow: 0 1.5px 3px 1px rgba(0,0,0,0.4);
+	padding:0;
+}
+
+
+.name a
+{
+  text-shadow: 0px 2px 1px #555;
+  vertical-align: middle;
+  line-height: 50%;
+	/*color: black;*/
+	color: #3C97BF;
+
+}
+
+.name
+{
+  /*margin-left: -30px;*/
+  text-transform: uppercase;
+}
+
+.name a:hover
+{
+  text-decoration: none;
+  /*color:white;*/
+}
+
+.menu_buttons button
+{
+  margin-top:20px;
+  margin-right: 10px;
+	color:black;
+  width: 100px;
+  font-weight:900 !important;
+  font-size: 18px !important;
+	background-color: white;
+
+}
+
+.menu
+{
+	background-color: black !important;
+}
+
+.menu_buttons button:hover
+{
+  color:black;
+  background-color: white !important;
+}
+
+
+
+
+
+
+
+
+/*body*/
+/*{*/
+/*  font-smooth: auto !important;*/
+/*  text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important;*/
+/*	-webkit-font-smoothing: antialiased !important;*/
+/*	-moz-osx-font-smoothing: grayscale !important;*/
+/*}*/
+
+
+
+ .top_button:hover, .bottom_button:hover
+{
+  /*border-color: #87CEEB;*/
+  /*background-color: white;*/
+  color: black !important;
+}
+
+/* .top_button:hover, .bottom_button:hover*/
+/*{*/
+  /*border-color: #87CEEB;*/
+/*  background-color: black;*/
+/*  color: white;*/
+/*}*/
+
+
+.lists li
+{
+  
+ /*list-style-type: none; */
+}
+
+
+
+
+
+
+
+.gitbutton a
+{
+  color:white;
+}  
+
+
+.interests > li
+{
+  /*white-space: nowrap;*/
+  /*display:inline;*/
+}
+
+.interests
+{
+ /*display: list-item; */
+ 	/*list-style-type:none;*/
+
+}
+
+.center
+{
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#hardware
+{
+  background-color: #FFC98D;
+  padding-bottom: 150px;
+}
+.bottom_button
+{
+  position:relative;
+  color: white !important;
+  background-color: #FFC98D;
+  font-weight:900 !important;
+  font-size: 40px !important;
+
+}
+
+
+
+#trulyruby
+{
+  
+}
+
+
+
+.restofpage
+{
+  z-index:-1;
+  margin-top: 68px;
+
+}
+
+.pic
+{
+width:250px;
+height:200px;
+/*float:right;*/
+/*z-index:5;*/
+}
+
+
+.left
+{
+	position:relative;
+}
+.right
+{
+	float:right;
+	
+}
+
+body
+{
+ font-family:"Roboto","Helvetica Neue",Helvetica; 
+}
+
+.test
+{
+	border:1px solid;
+}
+
+.project_preview
+{
+ /*border: 1px solid gray;*/
+ box-shadow: 0px 0px 2px 1px gray;
+ 
+    
+}
+
+.project_preview:hover
+{
+ box-shadow: 0px 0px 2px 1px gray;
+}
+
+.project_description
+{
+    color: grey;
+}
+
+h2, h1
+{
+  font-weight: 900 !important;
+}
+
+/*What do I want as a layout, left and stuff? */

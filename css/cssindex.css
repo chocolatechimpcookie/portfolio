@@ -7,6 +7,8 @@
 /*  orange FFC98D*/
 /*//xs*/
 /*http://paletton.com/#uid=63r0u0kehUd2k+N8QYniROamVFc*/
+
+/* xs*/
 @media only screen and(min-width:480px)
 {
   #projects_header button
@@ -19,6 +21,8 @@
   {
    /*width: 50%; */
   }
+	
+
 }
 
 
@@ -68,6 +72,7 @@
 }
 
 
+
 .top
 {
 	position:fixed;
@@ -106,7 +111,7 @@
 
 }
 
-.menu_buttons button, .white_button
+.menu_buttons button, .white_button, .menu_drop button
 {
   background-color: white !important;
   font-weight:900 !important;
@@ -229,8 +234,6 @@
 {
   margin-left: -30px;
   text-transform: uppercase;
-
-
 }
 
 /*body*/
@@ -247,6 +250,47 @@
   color:white;
 }
 
+.name_mobile span
+{
+	font-size: 36px;
+	/*margin-left: 100px;*/
+  color:white;
+	text-shadow: 0px 2px 3px #555;
+	font-weight:900 !important;
+
+}
+
+.name_mobile:hover
+{
+	text-decoration: none;
+}
+
+
+.menu_drop
+{
+	display:inline-block;
+	text-align: left;
+	list-style-type: none;
+	width: 100%;
+	border-top: 1px solid gray;
+
+}
+.menu_drop li, .menu_drop
+{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+
+
+}
+
+.menu_drop button
+{
+	margin-top: 20px;
+	color: black;
+	/*width: 100px;*/
+	width: 100%;
+	text-align: left;
+}
 
  .top_button:hover, .bottom_button:hover
 {
