@@ -62,6 +62,16 @@
   margin-right: 30px; 
 }
 
+.navbar-toggle
+{
+  border: 0px !important;
+  
+}
+
+.navbar-toggle:active
+{
+  background-color:black !important;
+}
 
 .menu
 {
@@ -294,7 +304,8 @@
 	text-align: left;
 	list-style-type: none;
 	width: 100%;
-	border-top: 1px solid gray;
+	/*border-top: 1px solid gray;*/
+	border-top: 2px solid #FFA948;
 
 }
 .menu_drop li, .menu_drop
@@ -488,3 +499,4 @@ h2, h1
 }
 
 /*What do I want as a layout, left and stuff? */
+
