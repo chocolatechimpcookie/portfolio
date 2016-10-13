@@ -22,9 +22,14 @@
   {
    /*width: 50%; */
   }
-	
+  
+  .button_margin
+  {
+   margin-bottom: 10px; 
+  }
 
 }
+
 
 
 /*sm*/
@@ -39,6 +44,10 @@
   .project_preview
   {
    width: inherit; 
+  }
+    .button_margin
+  {
+   margin-bottom: 0; 
   }
 
 }
